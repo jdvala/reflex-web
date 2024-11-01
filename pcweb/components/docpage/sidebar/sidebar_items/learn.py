@@ -59,7 +59,6 @@ def get_sidebar_items_frontend():
             children=[
                 pages.overview,
                 pages.dynamic_routing,
-                pages.metadata,
             ],
         ),
         create_item(
@@ -76,7 +75,7 @@ def get_sidebar_items_frontend():
         create_item(
             "Assets",
             children=[
-                assets.referencing_assets,
+                assets.overview,
                 assets.upload_and_download_files,
             ],
         ),
