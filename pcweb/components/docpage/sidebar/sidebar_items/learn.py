@@ -57,7 +57,7 @@ def get_sidebar_items_frontend():
         create_item(
             "Pages",
             children=[
-                pages.routes,
+                pages.overview,
                 pages.dynamic_routing,
                 pages.metadata,
             ],
